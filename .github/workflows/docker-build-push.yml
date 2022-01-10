@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'dev'
+      - 'master'
     tags:
       - 'v*.*.*'
 
@@ -22,6 +23,8 @@ jobs:
           # list of Docker images to use as base name for tags
           images: |
             candinya/undirect
+          flavor: |
+            latest=auto
           # generate Docker tags based on the following events/attributes
           tags: |
             type=ref,event=tag
