@@ -1,6 +1,6 @@
 version: '3'
 services:
-  rss3hub:
+  undirect:
     image: candinya/undirect
     container_name: undirect
     ports:
