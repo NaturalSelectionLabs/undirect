@@ -1,0 +1,10 @@
+version: '3'
+services:
+  rss3hub:
+    image: candinya/undirect
+    container_name: undirect
+    ports:
+      - 127.0.0.1:5000:5000
+    restart: always
+    volumes:
+      - ./config.yml:/config.yml:ro
