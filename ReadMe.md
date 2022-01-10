@@ -17,3 +17,7 @@ http://localhost:5000/?url=https%3A%2F%2Fokjk.co%2FSqOYfk
     "ok": true
 }
 ```
+
+## License
+
+This repository is currently licensed with the AGPLv3 license.
