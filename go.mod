@@ -1,4 +1,4 @@
-module github.com/Candinya/undirect
+module github.com/NaturalSelectionLabs/undirect
 
 go 1.17
 
